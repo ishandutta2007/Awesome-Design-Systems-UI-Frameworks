@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <!-- Vibrant Gradient Accents -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="tokenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.1" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="40" cy="40" r="1.5" fill="#334155" />
+    </pattern>
+  </defs>
+
+  <style>
+    .bg-canvas { fill: url(#bgGrad); }
+    .grid-overlay { fill: url(#grid); opacity: 0.8; }
+    
+    /* Dynamic Animated Background Blobs & Elements (Always behind text) */
+    @keyframes pulseGlow {
+      0% { opacity: 0.25; transform: scale(0.95) translate(0px, 0px); }
+      50% { opacity: 0.55; transform: scale(1.08) translate(15px, -10px); }
+      100% { opacity: 0.25; transform: scale(0.95) translate(0px, 0px); }
+    }
+
+    @keyframes floatPill1 {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-12px) rotate(2deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
+    }
+
+    @keyframes floatPill2 {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(14px) rotate(-2deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
+    }
+
+    @keyframes dashStream {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    .pulse-blob-1 {
+      animation: pulseGlow 8s ease-in-out infinite;
+      transform-origin: 200px 100px;
+    }
+    
+    .pulse-blob-2 {
+      animation: pulseGlow 10s ease-in-out infinite 2s;
+      transform-origin: 1000px 260px;
+    }
+
+    .dynamic-pill-1 {
+      animation: floatPill1 6s ease-in-out infinite;
+    }
+
+    .dynamic-pill-2 {
+      animation: floatPill2 7s ease-in-out infinite 1s;
+    }
+
+    .flow-line {
+      stroke-dasharray: 8 8;
+      animation: dashStream 12s linear infinite;
+    }
+
+    /* Forehead Typography & Assured Foreground Visibility */
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 44px;
+      letter-spacing: -0.5px;
+      fill: #ffffff;
+    }
+
+    .title-highlight {
+      fill: url(#primaryGrad);
+    }
+
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 19px;
+      letter-spacing: 0.2px;
+      fill: #94a3b8;
+    }
+
+    .badge-label {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #e2e8f0;
+      letter-spacing: 0.5px;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" class="bg-canvas" />
+  <rect width="1200" height="360" rx="16" class="grid-overlay" />
+
+  <!-- DYNAMIC / ANIMATED LAYER (Carefully placed on edges and background) -->
+  <g class="pulse-blob-1">
+    <circle cx="180" cy="80" r="160" fill="url(#accentGlow)" filter="url(#glow)" />
+  </g>
+  <g class="pulse-blob-2">
+    <circle cx="1020" cy="280" r="180" fill="url(#accentGlow)" filter="url(#glow)" />
+  </g>
+
+  <!-- Connecting Flow Lines (Background) -->
+  <path d="M 80 180 Q 250 80, 500 130 T 1120 180" fill="none" stroke="#334155" stroke-width="2" class="flow-line" opacity="0.4" />
+  <path d="M 120 280 Q 400 320, 750 250 T 1150 120" fill="none" stroke="#4f46e5" stroke-width="1.5" class="flow-line" opacity="0.3" />
+
+  <!-- Dynamic Ambient Decorative Badges/Pills on Outer Wings (Clear of Center Content) -->
+  <g class="dynamic-pill-1" transform="translate(60, 60)">
+    <rect width="130" height="34" rx="17" fill="#1e293b" stroke="#38bdf8" stroke-width="1" opacity="0.85" />
+    <circle cx="18" cy="17" r="5" fill="#38bdf8" />
+    <text x="32" y="22" class="badge-label">Design Tokens</text>
+  </g>
+
+  <g class="dynamic-pill-2" transform="translate(1010, 60)">
+    <rect width="130" height="34" rx="17" fill="#1e293b" stroke="#818cf8" stroke-width="1" opacity="0.85" />
+    <circle cx="18" cy="17" r="5" fill="#818cf8" />
+    <text x="32" y="22" class="badge-label">Components</text>
+  </g>
+
+  <g class="dynamic-pill-2" transform="translate(50, 270)">
+    <rect width="140" height="34" rx="17" fill="#1e293b" stroke="#a855f7" stroke-width="1" opacity="0.85" />
+    <circle cx="18" cy="17" r="5" fill="#a855f7" />
+    <text x="32" y="22" class="badge-label">UI Consistency</text>
+  </g>
+
+  <g class="dynamic-pill-1" transform="translate(1000, 270)">
+    <rect width="150" height="34" rx="17" fill="#1e293b" stroke="#10b981" stroke-width="1" opacity="0.85" />
+    <circle cx="18" cy="17" r="5" fill="#10b981" />
+    <text x="32" y="22" class="badge-label">Open Architecture</text>
+  </g>
+
+  <!-- FOREGROUND LAYER: Center Title & Subtitle (Completely Unobstructed) -->
+  <g transform="translate(600, 115)" text-anchor="middle">
+    <!-- Center Tag Badge -->
+    <rect x="-145" y="-36" width="290" height="32" rx="16" fill="#1e1b4b" stroke="#6366f1" stroke-width="1" />
+    <text x="0" y="-15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#a5b4fc" letter-spacing="1.5">⚡ CURATED ECOSYSTEM DIRECTORY</text>
+
+    <!-- Main Title -->
+    <text y="42" class="title-text">
+      Awesome <tspan class="title-highlight">Design Systems</tspan> &amp; UI Frameworks
+    </text>
+
+    <!-- Subtitle Line 1 -->
+    <text y="88" class="subtitle-text">
+      The authoritative guide to design tokens, component documentation, &amp; design-to-code pipelines
+    </text>
+
+    <!-- Subtitle Line 2 -->
+    <text y="120" class="subtitle-text" font-size="15" fill="#64748b">
+      SaaS Category Leaders • Enterprise Workbenches • Open-Source UI Infrastructure
+    </text>
+  </g>
+
+  <!-- Subtle Bottom Border Accent -->
+  <rect x="0" y="356" width="1200" height="4" fill="url(#primaryGrad)" />
+</svg>
