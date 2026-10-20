@@ -44,40 +44,14 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-- **Figma Dev Mode**
-
-  Paid add-on within Figma that provides developer handoff with code snippets, component specs, and design token inspection. **Note**: Fully proprietary—requires Figma subscription plus Dev Mode add-on. **The default handoff layer** for teams already in Figma.
-
-
-
-- **Zeplin**
-
-  Design handoff and collaboration platform that generates specs, assets, and style guides from design files. **The original design-to-development bridge**—historically important but facing pressure from Figma's native Dev Mode.
-
-
-
-- **Zeroheight**
-
-  Design system documentation platform that pulls from Figma, code, and Storybook to create a single source of truth. **The documentation hub choice**—centralizes design system docs for cross-functional teams.
-
-
-
-- **Supernova**
-
-  Design system platform with documentation, token management, and code generation. **The end-to-end design system tool**—from token definition to production code.
-
-
-
-- **Specify**
-
-  Design token management and synchronization platform. **The token pipeline choice**—syncs tokens from Figma to code and back.
-
-
-
-- **Knapsack**
-
-  Design system platform with documentation, token management, and code connect. **The developer-focused design system hub**.
-
+| Platform | Company Valuation / Revenue | Starting Pricing Tier | Free Tier Limits / Evaluation | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Figma Dev Mode** | **Valuation: ~$12.5B+** (Revenue: ~$1.06B+ ARR) | $12/dev/month ($144/year billed annually on Professional, or $15/month monthly) | No standalone free tier or free trial for Dev Mode; requires a paid Dev or Full seat. Free Starter plan offers basic CSS inspection only (no Dev Mode access, 3 design files limit). | Paid add-on/seat within Figma providing developer handoff with code snippets, component specs, and design token inspection. The default handoff layer for teams already in Figma. |
+| **Zeplin** | **Valuation: ~$50M–$100M est.** (Revenue: ~$25M–$52M ARR) | $12/seat/month ($144/year billed annually on Advanced, or $15/month monthly; or $13.75/month Basic 1-project pack) | Permanent Free plan limited to 1 active project, 100 screens, 1 styleguide (up to 100 components), and 30-day version history (unlimited collaborators). | Design handoff and collaboration platform that generates specs, assets, and style guides from design files. The original design-to-development bridge. |
+| **Knapsack** | **Valuation: ~$40M** (Series A; Revenue: undisclosed private) | $4,166/month ($50,000/year billed annually for Core tier) | No free tier or self-serve free trial; access is restricted to customized enterprise demo walk-throughs and sales quotes. | Enterprise design system platform with dynamic documentation, token management, and code connect. The developer-focused design system hub. |
+| **Supernova** | **Valuation: ~$37M** (Series A; Revenue: ~$5.0M–$5.8M ARR) | $35/editor/month (Pro plan) | Permanent Free plan limited to 1 active design system, up to 5 team seats, 2 AI contexts, 5 MCP consumers, and 2,400 automation credits/month. | Design system platform with documentation, token management, and code generation. The end-to-end design system tool from tokens to production code. |
+| **Zeroheight** | **Valuation: ~$15M–$30M est.** (Total funding: $10.8M; Revenue: ~$3.8M ARR) | $49/editor/month ($588/year billed annually on Starter, or $59/month monthly) | Permanent Free plan limited to 1 editor, 1 styleguide, 1 token set, and 500 MCP standard search calls/month. Paid Starter includes a 14-day free trial. | Design system documentation platform that pulls from Figma, code, and Storybook to create a single source of truth for cross-functional teams. |
+| **Specify** | **Valuation: ~$10M–$15M est.** (Total funding: €4.0M Seed; Revenue: undisclosed private) | $69/month (Essentials plan, 1 user, 1 repository) | 14-day free trial on paid plans (Essentials/Team); or $0/month free baseline tier limited to 100MB storage and basic community tier. | Design token management and synchronization platform. The token pipeline choice syncing tokens from Figma to code and back. |
 
 
 ## Open-Source GitHub Projects
