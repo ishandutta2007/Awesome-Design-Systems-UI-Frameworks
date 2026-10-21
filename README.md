@@ -65,7 +65,7 @@ The sector exhibits **moderate-to-high fragmentation** rather than a "winner-tak
 ## 🚀 Open-Source GitHub Projects
 
 > [!TIP]  
-> All open-source repositories below are ranked strictly in **descending order by GitHub Stars_Count**. Click any Stars_Badge to view stargazers directly.
+> All open-source repositories below are ranked strictly in **descending order by GitHub_Stars_Count**. Click any Stars_Badge to view stargazers directly.
 
 - ### 1. **shadcn/ui** [![GitHub_Stars](https://img.shields.io/github/stars/shadcn-ui/ui?style=social&color=white)](https://github.com/shadcn-ui/ui/stargazers)
   **Beautifully designed components that you can copy and paste into your apps** (MIT) — **the modern copy-paste component architecture**. Built with Radix UI Primitives and Tailwind CSS. Not a dependency library installed via npm; instead, it provides source-controlled accessible components directly embedded into your codebase.
