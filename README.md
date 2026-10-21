@@ -8,7 +8,7 @@
 
 <p align="center">
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Design-Systems-UI-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Design-Systems-UI-Frameworks?style=social" alt="GitHub stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Design-Systems-UI-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Design-Systems-UI-Frameworks?style=social" alt="GitHub_Stars" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Design-Systems-UI-Frameworks/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Design-Systems-UI-Frameworks?style=social" alt="GitHub forks" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Design-Systems-UI-Frameworks/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -65,51 +65,51 @@ The sector exhibits **moderate-to-high fragmentation** rather than a "winner-tak
 ## 🚀 Open-Source GitHub Projects
 
 > [!TIP]  
-> All open-source repositories below are ranked strictly in **descending order by GitHub star count**. Click any star badge to view stargazers directly.
+> All open-source repositories below are ranked strictly in **descending order by GitHub Stars_Count**. Click any Stars_Badge to view stargazers directly.
 
-- ### 1. **shadcn/ui** [![GitHub stars](https://img.shields.io/github/stars/shadcn-ui/ui?style=social&color=white)](https://github.com/shadcn-ui/ui/stargazers)
+- ### 1. **shadcn/ui** [![GitHub_Stars](https://img.shields.io/github/stars/shadcn-ui/ui?style=social&color=white)](https://github.com/shadcn-ui/ui/stargazers)
   **Beautifully designed components that you can copy and paste into your apps** (MIT) — **the modern copy-paste component architecture**. Built with Radix UI Primitives and Tailwind CSS. Not a dependency library installed via npm; instead, it provides source-controlled accessible components directly embedded into your codebase.
 
-- ### 2. **Ant Design** [![GitHub stars](https://img.shields.io/github/stars/ant-design/ant-design?style=social&color=white)](https://github.com/ant-design/ant-design/stargazers)
+- ### 2. **Ant Design** [![GitHub_Stars](https://img.shields.io/github/stars/ant-design/ant-design?style=social&color=white)](https://github.com/ant-design/ant-design/stargazers)
   **An enterprise-class UI design language and React UI library** (MIT) — **the standard for complex enterprise back-office applications**. Includes dozens of high-density production-ready components, complete internationalization, theme customization algorithms, and TypeScript support out of the box.
 
-- ### 3. **MUI (Material UI)** [![GitHub stars](https://img.shields.io/github/stars/mui/material-ui?style=social&color=white)](https://github.com/mui/material-ui/stargazers)
+- ### 3. **MUI (Material UI)** [![GitHub_Stars](https://img.shields.io/github/stars/mui/material-ui?style=social&color=white)](https://github.com/mui/material-ui/stargazers)
   **Comprehensive React component library implementing Google's Material Design** (MIT) — **the most widely deployed React UI system**. Offers rich theming facilities, design token integration, production-grade layout grids, data grids, and headless primitives via Base UI.
 
-- ### 4. **Tailwind CSS** [![GitHub stars](https://img.shields.io/github/stars/tailwindlabs/tailwindcss?style=social&color=white)](https://github.com/tailwindlabs/tailwindcss/stargazers)
+- ### 4. **Tailwind CSS** [![GitHub_Stars](https://img.shields.io/github/stars/tailwindlabs/tailwindcss?style=social&color=white)](https://github.com/tailwindlabs/tailwindcss/stargazers)
   **A utility-first CSS framework for rapid UI development** (MIT) — **the foundational styling engine**. Enables teams to encode design tokens (spacing, typography, OKLCH/RGB colors, shadows) directly into utility classes and modern CSS variables, serving as the core styling layer for modern design systems.
 
-- ### 5. **Storybook** [![GitHub stars](https://img.shields.io/github/stars/storybookjs/storybook?style=social&color=white)](https://github.com/storybookjs/storybook/stargazers)
+- ### 5. **Storybook** [![GitHub_Stars](https://img.shields.io/github/stars/storybookjs/storybook?style=social&color=white)](https://github.com/storybookjs/storybook/stargazers)
   **The industry standard for component development and documentation** (MIT) — **the component workbench**. Renders every component state in complete isolation. Features an expansive addon ecosystem for automated accessibility testing (a11y), responsive viewports, mock controls, and automated documentation generation.
 
-- ### 6. **Impeccable** [![GitHub stars](https://img.shields.io/github/stars/pbakaus/impeccable?style=social&color=white)](https://github.com/pbakaus/impeccable/stargazers)
+- ### 6. **Impeccable** [![GitHub_Stars](https://img.shields.io/github/stars/pbakaus/impeccable?style=social&color=white)](https://github.com/pbakaus/impeccable/stargazers)
   **The design language that makes your AI harness better at design** (Apache-2.0) — **the AI-native UI consistency framework**. Created by Paul Bakaus (jQuery UI co-founder). Fights generic LLM output biases (such as generic purple gradients and repeated Inter typography) using 7 domain reference files, 23 design prompt commands (`/audit`, `/critique`, `/polish`, `/colorize`), and a standalone CLI with 45 deterministic quality checks.
 
-- ### 7. **Chakra UI** [![GitHub stars](https://img.shields.io/github/stars/chakra-ui/chakra-ui?style=social&color=white)](https://github.com/chakra-ui/chakra-ui/stargazers)
+- ### 7. **Chakra UI** [![GitHub_Stars](https://img.shields.io/github/stars/chakra-ui/chakra-ui?style=social&color=white)](https://github.com/chakra-ui/chakra-ui/stargazers)
   **Simple, modular, and accessible component library for React** (MIT) — **the developer-ergonomic component kit**. Delivers composable WAI-ARIA compliant components with seamless style prop mechanics and theme token customization.
 
-- ### 8. **Radix Primitives** [![GitHub stars](https://img.shields.io/github/stars/radix-ui/primitives?style=social&color=white)](https://github.com/radix-ui/primitives/stargazers)
+- ### 8. **Radix Primitives** [![GitHub_Stars](https://img.shields.io/github/stars/radix-ui/primitives?style=social&color=white)](https://github.com/radix-ui/primitives/stargazers)
   **Unstyled, accessible UI components for building high-quality design systems** (MIT) — **the headless foundation**. Provides fully accessible primitive components (dialogs, dropdowns, tooltips, popovers) with zero styling opinions, allowing teams complete visual sovereignty over their design tokens and themes.
 
-- ### 9. **GitHub Primer CSS** [![GitHub stars](https://img.shields.io/github/stars/primer/css?style=social&color=white)](https://github.com/primer/css/stargazers)
+- ### 9. **GitHub Primer CSS** [![GitHub_Stars](https://img.shields.io/github/stars/primer/css?style=social&color=white)](https://github.com/primer/css/stargazers)
   **The foundational design system that powers GitHub's user interface** (MIT) — **the battle-tested enterprise design system**. Features comprehensive CSS utilities, color scales, typography tokens, component specifications, and React/ViewComponent implementations.
 
-- ### 10. **IBM Carbon Design System** [![GitHub stars](https://img.shields.io/github/stars/carbon-design-system/carbon?style=social&color=white)](https://github.com/carbon-design-system/carbon/stargazers)
+- ### 10. **IBM Carbon Design System** [![GitHub_Stars](https://img.shields.io/github/stars/carbon-design-system/carbon?style=social&color=white)](https://github.com/carbon-design-system/carbon/stargazers)
   **IBM’s open-source design system for digital products and digital experiences** (Apache-2.0) — **the enterprise-grade modular design architecture**. Features extensive multi-framework components (React, Web Components, Svelte, Angular), unified design tokens, accessibility standards, and comprehensive human interface guidelines.
 
-- ### 11. **Amazon Style Dictionary** [![GitHub stars](https://img.shields.io/github/stars/amzn/style-dictionary?style=social&color=white)](https://github.com/amzn/style-dictionary/stargazers)
+- ### 11. **Amazon Style Dictionary** [![GitHub_Stars](https://img.shields.io/github/stars/amzn/style-dictionary?style=social&color=white)](https://github.com/amzn/style-dictionary/stargazers)
   **A build system for creating cross-platform styles** (Apache-2.0) — **the universal design token compilation engine**. Allows teams to define tokens once in JSON/YAML and compile them across platforms: iOS (Swift/Objective-C), Android (XML/Compose), Web (CSS, SCSS, JS, TypeScript, DTCG).
 
-- ### 12. **Salesforce Lightning Design System (SLDS)** [![GitHub stars](https://img.shields.io/github/stars/salesforce-ux/design-system?style=social&color=white)](https://github.com/salesforce-ux/design-system/stargazers)
+- ### 12. **Salesforce Lightning Design System (SLDS)** [![GitHub_Stars](https://img.shields.io/github/stars/salesforce-ux/design-system?style=social&color=white)](https://github.com/salesforce-ux/design-system/stargazers)
   **The design framework powering enterprise CRM ecosystems** (BSD-2-Clause) — **pioneering design token architecture**. Standardizes typography, spacing, iconography, layout grids, and enterprise accessibility guidelines across large multi-tenant platforms.
 
-- ### 13. **Pattern Lab (Node)** [![GitHub stars](https://img.shields.io/github/stars/pattern-lab/patternlab-node?style=social&color=white)](https://github.com/pattern-lab/patternlab-node/stargazers)
+- ### 13. **Pattern Lab (Node)** [![GitHub_Stars](https://img.shields.io/github/stars/pattern-lab/patternlab-node?style=social&color=white)](https://github.com/pattern-lab/patternlab-node/stargazers)
   **The original atomic design pattern library tool** (MIT) — **the pioneer of atomic component structure**. Organizes components into atoms, molecules, organisms, templates, and pages for living documentation.
 
-- ### 14. **Tokens Studio for Figma** [![GitHub stars](https://img.shields.io/github/stars/tokens-studio/figma-plugin?style=social&color=white)](https://github.com/tokens-studio/figma-plugin/stargazers)
+- ### 14. **Tokens Studio for Figma** [![GitHub_Stars](https://img.shields.io/github/stars/tokens-studio/figma-plugin?style=social&color=white)](https://github.com/tokens-studio/figma-plugin/stargazers)
   **Open-source Figma plugin repository for managing design tokens** (AGPL-3.0) — **the token management standard inside Figma**. Enables teams to define tokens as JSON, handle themes/multi-brand sets, and sync bidirectionally with Git repositories (GitHub, GitLab) and Style Dictionary.
 
-- ### 15. **Adobe Spectrum Web Components** [![GitHub stars](https://img.shields.io/github/stars/adobe/spectrum-web-components?style=social&color=white)](https://github.com/adobe/spectrum-web-components/stargazers)
+- ### 15. **Adobe Spectrum Web Components** [![GitHub_Stars](https://img.shields.io/github/stars/adobe/spectrum-web-components?style=social&color=white)](https://github.com/adobe/spectrum-web-components/stargazers)
   **Adobe’s Spectrum design system built with modern Web Components** (Apache-2.0) — **framework-agnostic enterprise UI**. Encapsulates high-fidelity components, accessibility, and theme tokens using Lit-based standard browser elements.
 
 - ### 16. **Token Vault**
