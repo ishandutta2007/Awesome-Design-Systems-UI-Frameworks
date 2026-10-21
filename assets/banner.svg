@@ -37,10 +37,11 @@
   </defs>
 
   <style>
+    <![CDATA[
     .bg-canvas { fill: url(#bgGrad); }
     .grid-overlay { fill: url(#grid); opacity: 0.8; }
     
-    /* Dynamic Animated Background Blobs & Elements (Always behind text) */
+    /* Dynamic Animated Background Blobs and Elements (Always behind text) */
     @keyframes pulseGlow {
       0% { opacity: 0.25; transform: scale(0.95) translate(0px, 0px); }
       50% { opacity: 0.55; transform: scale(1.08) translate(15px, -10px); }
@@ -87,7 +88,7 @@
       animation: dashStream 12s linear infinite;
     }
 
-    /* Forehead Typography & Assured Foreground Visibility */
+    /* Forehead Typography and Assured Foreground Visibility */
     .title-text {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       font-weight: 800;
@@ -115,6 +116,7 @@
       fill: #e2e8f0;
       letter-spacing: 0.5px;
     }
+    ]]>
   </style>
 
   <!-- Background Base -->
@@ -158,7 +160,7 @@
     <text x="32" y="22" class="badge-label">Open Architecture</text>
   </g>
 
-  <!-- FOREGROUND LAYER: Center Title & Subtitle (Completely Unobstructed) -->
+  <!-- FOREGROUND LAYER: Center Title and Subtitle (Completely Unobstructed) -->
   <g transform="translate(600, 115)" text-anchor="middle">
     <!-- Center Tag Badge -->
     <rect x="-145" y="-36" width="290" height="32" rx="16" fill="#1e1b4b" stroke="#6366f1" stroke-width="1" />
